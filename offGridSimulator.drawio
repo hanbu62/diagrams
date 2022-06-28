@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T06:47:31.477Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36" etag="NPfy3SP60_-9uDa_Tiz2" version="20.0.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-06-28T06:59:44.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36" etag="I7Fbg3AHE3Hk-GzJmpXo" version="20.0.3" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="gridPurchase">
     <mxGraphModel dx="1360" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -65,7 +65,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="bessCharge" id="-_yp-hsYx3pz8FFsyMSn">
-    <mxGraphModel dx="1882" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1600" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="6cl_TD3AmLUB1-cgZ15C-0" />
         <mxCell id="6cl_TD3AmLUB1-cgZ15C-1" parent="6cl_TD3AmLUB1-cgZ15C-0" />
@@ -289,24 +289,41 @@
     </mxGraphModel>
   </diagram>
   <diagram name="energyBalance" id="VY54VDPdd7NwpJF9ftW2">
-    <mxGraphModel dx="1600" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1360" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="bpXd2vlqVgXWWFcCKrqM-0" />
         <mxCell id="bpXd2vlqVgXWWFcCKrqM-1" parent="bpXd2vlqVgXWWFcCKrqM-0" />
+        <mxCell id="fuOEHwJmu3bcdEG9yz8x-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="bpXd2vlqVgXWWFcCKrqM-1" source="bpXd2vlqVgXWWFcCKrqM-3" target="fuOEHwJmu3bcdEG9yz8x-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bpXd2vlqVgXWWFcCKrqM-3" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;arcSize=31;strokeColor=#82b366;strokeWidth=3;" vertex="1" parent="bpXd2vlqVgXWWFcCKrqM-1">
           <mxGeometry x="310" y="200" width="510" height="400" as="geometry" />
         </mxCell>
         <mxCell id="bpXd2vlqVgXWWFcCKrqM-9" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Battery balance&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Complete energy balance for system.&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="bpXd2vlqVgXWWFcCKrqM-1">
           <mxGeometry x="20" y="10" width="230" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bpXd2vlqVgXWWFcCKrqM-10" value="&lt;b&gt;&lt;u&gt;KEY&lt;/u&gt;&lt;/b&gt;&lt;br&gt;GP - grid purchase&lt;br&gt;BEC - battery energy capacity&lt;br&gt;TOU - time of use&lt;br&gt;GCG - grid charge goal&lt;br&gt;BEL - battery energy level&amp;nbsp;&lt;br&gt;BCP - battery charge power&lt;br&gt;LAG - load after grid&lt;br&gt;LAP - load after PVE&lt;br&gt;BC = Battery charge&lt;br&gt;GC - Genset capacity&lt;br&gt;PV - PV input&lt;br&gt;EPV - excess pv&lt;br&gt;SOC - BESS state of charge&amp;nbsp;&lt;br&gt;GL - Grid limit&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;" vertex="1" parent="bpXd2vlqVgXWWFcCKrqM-1">
-          <mxGeometry x="970" y="15" width="180" height="230" as="geometry" />
+        <mxCell id="fuOEHwJmu3bcdEG9yz8x-1" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.sun;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="bpXd2vlqVgXWWFcCKrqM-1">
+          <mxGeometry x="30" y="270" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fuOEHwJmu3bcdEG9yz8x-2" value="PV input" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="bpXd2vlqVgXWWFcCKrqM-1">
+          <mxGeometry x="140" y="385" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iWE5cc2lIVNOjAc23-8p-0" value="mini grid" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;arcSize=50;" vertex="1" parent="bpXd2vlqVgXWWFcCKrqM-1">
+          <mxGeometry x="630" y="170" width="92.51" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iWE5cc2lIVNOjAc23-8p-1" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;&lt;u&gt;Variables&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Load&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Input PV&lt;/div&gt;&lt;div&gt;Load after PV&lt;/div&gt;&lt;div&gt;Excess PV&lt;/div&gt;&lt;div&gt;Grid purchase&lt;/div&gt;&lt;div&gt;Load after grid&lt;/div&gt;&lt;div&gt;BESS Charge (Input)&lt;/div&gt;&lt;div&gt;PV Feedback&lt;/div&gt;&lt;div&gt;BESS Discharge (output)&lt;/div&gt;&lt;div&gt;BESS capacity&lt;/div&gt;&lt;div&gt;BES SOC&lt;/div&gt;&lt;div&gt;Load after BESS&lt;/div&gt;&lt;div&gt;Generator input&lt;/div&gt;&lt;div&gt;Load after genset&lt;/div&gt;&lt;div&gt;Cost of Fuel used&lt;/div&gt;&lt;div&gt;Cost of Grid&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="bpXd2vlqVgXWWFcCKrqM-1">
+          <mxGeometry x="980" y="10" width="170" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="iWE5cc2lIVNOjAc23-8p-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="bpXd2vlqVgXWWFcCKrqM-1" source="iWE5cc2lIVNOjAc23-8p-1" target="iWE5cc2lIVNOjAc23-8p-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="XnvxI2Gbm-EgDhDJZiNz" name="Page-5">
-    <mxGraphModel dx="1600" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1360" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
