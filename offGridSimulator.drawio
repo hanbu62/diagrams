@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T13:13:52.006Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36" etag="iHipRxc3i5m82f07ZY68" version="20.0.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-06-29T13:22:10.140Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36" etag="GdOjMwOYnwh2eU97Fk9s" version="20.0.3" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="gridPurchase">
     <mxGraphModel dx="1360" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -289,7 +289,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="energyBalance" id="VY54VDPdd7NwpJF9ftW2">
-    <mxGraphModel dx="1143" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="1" shadow="0">
+    <mxGraphModel dx="1183" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="1" shadow="0">
       <root>
         <mxCell id="bpXd2vlqVgXWWFcCKrqM-0" />
         <mxCell id="bpXd2vlqVgXWWFcCKrqM-1" parent="bpXd2vlqVgXWWFcCKrqM-0" />
@@ -416,8 +416,14 @@
         <mxCell id="iWE5cc2lIVNOjAc23-8p-36" value="" style="shape=xor;whiteSpace=wrap;html=1;fontSize=11;direction=north;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="bpXd2vlqVgXWWFcCKrqM-1">
           <mxGeometry x="542.495" y="610.005" width="45" height="33.75" as="geometry" />
         </mxCell>
-        <mxCell id="iWE5cc2lIVNOjAc23-8p-44" value="$$PV_{total} = PV_{excess} + (L_{total} - L_{afterPV})$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="bpXd2vlqVgXWWFcCKrqM-1">
-          <mxGeometry x="855" y="280" width="300" height="30" as="geometry" />
+        <mxCell id="iWE5cc2lIVNOjAc23-8p-44" value="$$PV_{total} = PV_{excess} + (L_{total} - L_{afterPV})$$" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="bpXd2vlqVgXWWFcCKrqM-1">
+          <mxGeometry x="875" y="372.5" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iWE5cc2lIVNOjAc23-8p-45" value="&lt;h1&gt;Formulae&lt;/h1&gt;&lt;p&gt;Formulae used to calculate various variables.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;" vertex="1" parent="bpXd2vlqVgXWWFcCKrqM-1">
+          <mxGeometry x="875" y="297.5" width="280" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iWE5cc2lIVNOjAc23-8p-62" value="$$&lt;span style=&quot;text-align: left;&quot;&gt;PV_{excess}$$&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="bpXd2vlqVgXWWFcCKrqM-1">
+          <mxGeometry x="835" y="425" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
