@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-20T10:49:32.360Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="Tv_lvcptAG_tB9Y_iaEK" version="20.1.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-20T11:34:23.479Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="ZEVRyiIvyUt4gpZ6mgAc" version="20.1.1" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="gridPurchase">
-    <mxGraphModel dx="1360" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1360" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -169,7 +169,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="bessDischarge" id="q7cStsHBVhpRV0pZvIqo">
-    <mxGraphModel dx="1360" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="1" shadow="0">
+    <mxGraphModel dx="1360" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="1" shadow="0">
       <root>
         <mxCell id="csG7UgbEqWCRexEKj5_T-0" />
         <mxCell id="csG7UgbEqWCRexEKj5_T-1" parent="csG7UgbEqWCRexEKj5_T-0" />
@@ -239,14 +239,14 @@
         <mxCell id="27d9CEADMNGU8r7h79jH-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=none;dashed=1;strokeWidth=3;" vertex="1" parent="csG7UgbEqWCRexEKj5_T-1">
           <mxGeometry x="50" y="300" width="460" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="27d9CEADMNGU8r7h79jH-3" value="Genset is active. If charge state is healthy, battery will discharge." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="csG7UgbEqWCRexEKj5_T-1">
-          <mxGeometry x="70" y="520" width="420" height="30" as="geometry" />
+        <mxCell id="27d9CEADMNGU8r7h79jH-3" value="Genset is available. If charge state is healthy, battery will discharge." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="csG7UgbEqWCRexEKj5_T-1">
+          <mxGeometry x="60" y="520" width="440" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="loadAfterGrid" id="5_ZTT6Rr4enQcu8NSt9g">
-    <mxGraphModel dx="1600" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1360" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="iTIY_GPRaCVIgb1ChVSd-0" />
         <mxCell id="iTIY_GPRaCVIgb1ChVSd-1" parent="iTIY_GPRaCVIgb1ChVSd-0" />
