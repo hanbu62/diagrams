@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-20T11:34:23.479Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="ZEVRyiIvyUt4gpZ6mgAc" version="20.1.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-20T12:12:54.112Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="mDSUpMX_AQ0sTkEQsVym" version="20.1.1" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="gridPurchase">
     <mxGraphModel dx="1360" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -65,7 +65,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="bessCharge" id="-_yp-hsYx3pz8FFsyMSn">
-    <mxGraphModel dx="1600" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1360" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="1" shadow="0">
       <root>
         <mxCell id="6cl_TD3AmLUB1-cgZ15C-0" />
         <mxCell id="6cl_TD3AmLUB1-cgZ15C-1" parent="6cl_TD3AmLUB1-cgZ15C-0" />
@@ -165,6 +165,12 @@
         <mxCell id="g0z7IhD7ouymIrGThYdU-18" value="Grid charge" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;arcSize=50;" parent="6cl_TD3AmLUB1-cgZ15C-1" vertex="1">
           <mxGeometry x="712.5" y="290" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="hqxDWIA4O4p0LkHxTcnM-0" value="\(\eta_{discharge} = \eta_{charge} = \sqrt{\eta_{rt}}\)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;" vertex="1" parent="6cl_TD3AmLUB1-cgZ15C-1">
+          <mxGeometry x="40" y="520" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hqxDWIA4O4p0LkHxTcnM-1" value="$$ BEL_{i+1} = BEL_i + charge \cdot \sqrt{\eta_{rt}} - \frac{discharge}{\sqrt{\eta_{rt}}} $$" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="6cl_TD3AmLUB1-cgZ15C-1">
+          <mxGeometry x="40" y="576" width="570" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -233,14 +239,23 @@
         <mxCell id="27d9CEADMNGU8r7h79jH-0" value="BD = min(LAG, BDP, BEL*\(\eta_{discharge}\))" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="csG7UgbEqWCRexEKj5_T-1">
           <mxGeometry x="530" y="340" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="27d9CEADMNGU8r7h79jH-1" value="\(\eta_{discharge} = \eta_{charge} = \sqrt{\eta_{round-trip}}\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="csG7UgbEqWCRexEKj5_T-1">
-          <mxGeometry x="750" y="445" width="390" height="30" as="geometry" />
+        <mxCell id="27d9CEADMNGU8r7h79jH-1" value="\(\eta_{discharge} = \eta_{charge} = \sqrt{\eta_{rt}}\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;" vertex="1" parent="csG7UgbEqWCRexEKj5_T-1">
+          <mxGeometry x="585" y="460" width="460" height="40" as="geometry" />
         </mxCell>
         <mxCell id="27d9CEADMNGU8r7h79jH-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=none;dashed=1;strokeWidth=3;" vertex="1" parent="csG7UgbEqWCRexEKj5_T-1">
           <mxGeometry x="50" y="300" width="460" height="260" as="geometry" />
         </mxCell>
         <mxCell id="27d9CEADMNGU8r7h79jH-3" value="Genset is available. If charge state is healthy, battery will discharge." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="csG7UgbEqWCRexEKj5_T-1">
           <mxGeometry x="60" y="520" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G9tuIaZHgIYdK8gMg8mX-1" value="MIN(cap+charge-discharge,bessSize))" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="csG7UgbEqWCRexEKj5_T-1">
+          <mxGeometry x="800" y="630" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G9tuIaZHgIYdK8gMg8mX-2" value="&lt;pre style=&quot;margin-top: 0px; margin-bottom: calc(var(--s-prose-spacing) + 0.4em); padding: var(--su12); border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: var(--lh-md); font-family: var(--ff-mono); vertical-align: baseline; box-sizing: inherit; width: auto; max-height: 600px; overflow: auto; background-color: var(--highlight-bg); border-radius: var(--br-md); color: var(--highlight-color); overflow-wrap: normal; text-align: left;&quot; class=&quot;lang-tex s-code-block&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="csG7UgbEqWCRexEKj5_T-1">
+          <mxGeometry x="430" y="665" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G9tuIaZHgIYdK8gMg8mX-5" value="$$ BEL_{i+1} = BEL_i + charge \cdot \sqrt{\eta_{rt}} - \frac{discharge}{\sqrt{\eta_{rt}}} $$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="csG7UgbEqWCRexEKj5_T-1">
+          <mxGeometry x="570" y="510" width="570" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -289,7 +304,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="energyBalance" id="VY54VDPdd7NwpJF9ftW2">
-    <mxGraphModel dx="1360" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="1" shadow="0">
+    <mxGraphModel dx="1360" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="1" shadow="0">
       <root>
         <mxCell id="bpXd2vlqVgXWWFcCKrqM-0" />
         <mxCell id="bpXd2vlqVgXWWFcCKrqM-1" parent="bpXd2vlqVgXWWFcCKrqM-0" />
