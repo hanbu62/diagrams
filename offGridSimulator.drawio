@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-20T12:12:54.112Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="mDSUpMX_AQ0sTkEQsVym" version="20.1.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-08-05T08:28:17.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36" etag="7qehMovY1P1SRSxk-JZ-" version="20.2.2" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="gridPurchase">
-    <mxGraphModel dx="1360" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1360" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -65,7 +65,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="bessCharge" id="-_yp-hsYx3pz8FFsyMSn">
-    <mxGraphModel dx="1360" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="1" shadow="0">
+    <mxGraphModel dx="1360" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="1" shadow="0">
       <root>
         <mxCell id="6cl_TD3AmLUB1-cgZ15C-0" />
         <mxCell id="6cl_TD3AmLUB1-cgZ15C-1" parent="6cl_TD3AmLUB1-cgZ15C-0" />
@@ -97,36 +97,21 @@
         <mxCell id="6cl_TD3AmLUB1-cgZ15C-13" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Battery charge&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Flow diagram for battery charge&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="6cl_TD3AmLUB1-cgZ15C-1" vertex="1">
           <mxGeometry x="20" y="10" width="230" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6cl_TD3AmLUB1-cgZ15C-14" value="&lt;b&gt;&lt;u&gt;KEY&lt;/u&gt;&lt;/b&gt;&lt;br&gt;GP - grid purchase&lt;br&gt;BEC - battery energy capacity&lt;br&gt;TOU - time of use&lt;br&gt;GCG - grid charge goal&lt;br&gt;BEL - battery energy level&amp;nbsp;&lt;br&gt;BCP - battery charge power&lt;br&gt;LAG - load after grid&lt;br&gt;LAP - load after PVE&lt;br&gt;BC = Battery charge&lt;br&gt;GC - Genset capacity&lt;br&gt;PV - PV input&lt;br&gt;EPV - excess pv&lt;br&gt;SOC - BESS state of charge&amp;nbsp;&lt;br&gt;GL - Grid limit&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;" parent="6cl_TD3AmLUB1-cgZ15C-1" vertex="1">
-          <mxGeometry x="970" y="15" width="180" height="230" as="geometry" />
+        <mxCell id="6cl_TD3AmLUB1-cgZ15C-14" value="&lt;b&gt;&lt;u&gt;KEY&lt;/u&gt;&lt;/b&gt;&lt;br&gt;GP - grid purchase&lt;br&gt;BEC - battery energy capacity&lt;br&gt;TOU - time of use&lt;br&gt;GCG - grid charge goal&lt;br&gt;BEL - battery energy level&amp;nbsp;&lt;br&gt;BCP - battery charge power&lt;br&gt;LAG - load after grid&lt;br&gt;LAP - load after PVE&lt;br&gt;BC = Battery charge&lt;br&gt;GC - Genset capacity&lt;br&gt;PV - PV input&lt;br&gt;EPV - excess pv&lt;br&gt;SOC - BESS state of charge&amp;nbsp;&lt;br&gt;GL - Grid limit&lt;br&gt;CEF - Charging efficiency&lt;br&gt;DEF - discharging efficiency&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;" parent="6cl_TD3AmLUB1-cgZ15C-1" vertex="1">
+          <mxGeometry x="970" width="180" height="260" as="geometry" />
         </mxCell>
         <mxCell id="FhyjPaBEsX8r4Yeg3IF2-30" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;startSize=6;endSize=8;" parent="6cl_TD3AmLUB1-cgZ15C-1" source="FhyjPaBEsX8r4Yeg3IF2-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="720" y="423" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g0z7IhD7ouymIrGThYdU-15" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="6cl_TD3AmLUB1-cgZ15C-1" source="FhyjPaBEsX8r4Yeg3IF2-2" target="FhyjPaBEsX8r4Yeg3IF2-25" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="g0z7IhD7ouymIrGThYdU-15" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="6cl_TD3AmLUB1-cgZ15C-1" source="FhyjPaBEsX8r4Yeg3IF2-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="587.5" y="530" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="FhyjPaBEsX8r4Yeg3IF2-2" value="BEL &amp;lt; BEC" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;verticalAlign=middle;fillColor=none;rounded=0;" parent="6cl_TD3AmLUB1-cgZ15C-1" vertex="1">
           <mxGeometry x="522.5" y="390" width="130" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="FhyjPaBEsX8r4Yeg3IF2-23" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;startSize=6;endSize=8;verticalAlign=middle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="6cl_TD3AmLUB1-cgZ15C-1" source="FhyjPaBEsX8r4Yeg3IF2-25" target="FhyjPaBEsX8r4Yeg3IF2-26" edge="1">
-          <mxGeometry x="-0.1852" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FhyjPaBEsX8r4Yeg3IF2-24" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;startSize=6;endSize=8;" parent="6cl_TD3AmLUB1-cgZ15C-1" source="FhyjPaBEsX8r4Yeg3IF2-25" edge="1">
-          <mxGeometry x="0.2" y="25" relative="1" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="587.5000000000002" y="634" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FhyjPaBEsX8r4Yeg3IF2-25" value="PVE &amp;gt; BCP" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;verticalAlign=middle;rounded=0;" parent="6cl_TD3AmLUB1-cgZ15C-1" vertex="1">
-          <mxGeometry x="522.5" y="530" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FhyjPaBEsX8r4Yeg3IF2-26" value="BC = PVE" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;glass=0;" parent="6cl_TD3AmLUB1-cgZ15C-1" vertex="1">
-          <mxGeometry x="720" y="540" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FhyjPaBEsX8r4Yeg3IF2-35" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;startSize=6;endSize=8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="6cl_TD3AmLUB1-cgZ15C-1" source="FhyjPaBEsX8r4Yeg3IF2-31" target="6cl_TD3AmLUB1-cgZ15C-5" edge="1">
           <mxGeometry x="0.347" relative="1" as="geometry">
@@ -156,8 +141,8 @@
         <mxCell id="g0z7IhD7ouymIrGThYdU-7" value="Genset charge" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;arcSize=50;" parent="6cl_TD3AmLUB1-cgZ15C-1" vertex="1">
           <mxGeometry x="62.5" y="408" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g0z7IhD7ouymIrGThYdU-8" value="BC = min(BCP, BEC - BEL)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="6cl_TD3AmLUB1-cgZ15C-1" vertex="1">
-          <mxGeometry x="502.5" y="634" width="170" height="40" as="geometry" />
+        <mxCell id="g0z7IhD7ouymIrGThYdU-8" value="BC = min(BCP, (BEC - BEL)/CEF, PV)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="6cl_TD3AmLUB1-cgZ15C-1" vertex="1">
+          <mxGeometry x="502.5" y="550" width="227.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="g0z7IhD7ouymIrGThYdU-17" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;arcSize=31;strokeColor=#d6b656;strokeWidth=3;" parent="6cl_TD3AmLUB1-cgZ15C-1" vertex="1">
           <mxGeometry x="640" y="180" width="277.5" height="150" as="geometry" />
@@ -165,10 +150,10 @@
         <mxCell id="g0z7IhD7ouymIrGThYdU-18" value="Grid charge" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;arcSize=50;" parent="6cl_TD3AmLUB1-cgZ15C-1" vertex="1">
           <mxGeometry x="712.5" y="290" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hqxDWIA4O4p0LkHxTcnM-0" value="\(\eta_{discharge} = \eta_{charge} = \sqrt{\eta_{rt}}\)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;" vertex="1" parent="6cl_TD3AmLUB1-cgZ15C-1">
+        <mxCell id="hqxDWIA4O4p0LkHxTcnM-0" value="\(\eta_{discharge} = \eta_{charge} = \sqrt{\eta_{rt}}\)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;" parent="6cl_TD3AmLUB1-cgZ15C-1" vertex="1">
           <mxGeometry x="40" y="520" width="460" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hqxDWIA4O4p0LkHxTcnM-1" value="$$ BEL_{i+1} = BEL_i + charge \cdot \sqrt{\eta_{rt}} - \frac{discharge}{\sqrt{\eta_{rt}}} $$" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="6cl_TD3AmLUB1-cgZ15C-1">
+        <mxCell id="hqxDWIA4O4p0LkHxTcnM-1" value="$$ BEL_{i+1} = BEL_i + charge \cdot \sqrt{\eta_{rt}} - \frac{discharge}{\sqrt{\eta_{rt}}} $$" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="6cl_TD3AmLUB1-cgZ15C-1" vertex="1">
           <mxGeometry x="40" y="576" width="570" height="30" as="geometry" />
         </mxCell>
       </root>
