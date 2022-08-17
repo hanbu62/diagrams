@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T11:31:20.073Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36" etag="ISptCXe9v1iNqhCui2A-" version="20.2.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-08-17T11:33:53.652Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36" etag="FnTt7DaJMxJgeRuVyWz2" version="20.2.3" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="offpeak_gridPurchase">
     <mxGraphModel dx="1360" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
@@ -170,6 +170,9 @@
       <root>
         <mxCell id="csG7UgbEqWCRexEKj5_T-0" />
         <mxCell id="csG7UgbEqWCRexEKj5_T-1" parent="csG7UgbEqWCRexEKj5_T-0" />
+        <mxCell id="27d9CEADMNGU8r7h79jH-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=none;dashed=1;strokeWidth=3;" parent="csG7UgbEqWCRexEKj5_T-1" vertex="1">
+          <mxGeometry x="50" y="300" width="460" height="260" as="geometry" />
+        </mxCell>
         <mxCell id="zqP5TKmobI9pTjwGdJMn-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="csG7UgbEqWCRexEKj5_T-1" source="csG7UgbEqWCRexEKj5_T-4" target="csG7UgbEqWCRexEKj5_T-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -232,9 +235,6 @@
         </mxCell>
         <mxCell id="27d9CEADMNGU8r7h79jH-1" value="\(\eta_{discharge} = \eta_{charge} = \sqrt{\eta_{rt}}\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;" parent="csG7UgbEqWCRexEKj5_T-1" vertex="1">
           <mxGeometry x="585" y="460" width="460" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="27d9CEADMNGU8r7h79jH-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=none;dashed=1;strokeWidth=3;" parent="csG7UgbEqWCRexEKj5_T-1" vertex="1">
-          <mxGeometry x="50" y="300" width="460" height="260" as="geometry" />
         </mxCell>
         <mxCell id="27d9CEADMNGU8r7h79jH-3" value="Genset is available. If charge state is healthy, battery will discharge." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="csG7UgbEqWCRexEKj5_T-1" vertex="1">
           <mxGeometry x="60" y="520" width="440" height="30" as="geometry" />
