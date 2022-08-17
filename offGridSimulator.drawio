@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T10:22:51.252Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36" etag="rtC-1QBaJsn72Kij4SkE" version="20.2.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-08-17T09:42:42.543Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36" etag="Ca2D7MWxdvKrP1N_5xxE" version="20.2.3" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="gridPurchase">
-    <mxGraphModel dx="806" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1360" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -116,7 +116,7 @@
         <mxCell id="FhyjPaBEsX8r4Yeg3IF2-31" value="TOU = &quot;O&quot; &lt;br&gt;AND &lt;br&gt;BEL &amp;lt; GCG&lt;br&gt;AND&lt;br&gt;Grid = On" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;verticalAlign=middle;rounded=0;" parent="6cl_TD3AmLUB1-cgZ15C-1" vertex="1">
           <mxGeometry x="489.38" y="60" width="156.25" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="B69l18TPprIttJ-5V3IQ-0" value="BC = max(&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;0, &lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;min(BCP, EPV),&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;min(BCP, (GCG - BEL)/CEF, GL)&lt;br&gt;)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#f8cecc;strokeColor=#b85450;glass=0;align=left;" parent="6cl_TD3AmLUB1-cgZ15C-1" vertex="1">
+        <mxCell id="B69l18TPprIttJ-5V3IQ-0" value="BC = max(&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;0, &lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;min(BCP, EPV),&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;min(BCP, (GCG - BEL)/CEF, GL)&lt;br&gt;)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#f8cecc;strokeColor=#b85450;glass=0;align=left;" parent="6cl_TD3AmLUB1-cgZ15C-1" vertex="1">
           <mxGeometry x="672.5" y="200" width="220" height="100" as="geometry" />
         </mxCell>
         <mxCell id="qtNIPX7f-IYSsjuETtx7-0" value="BC = min(GC - LAP, BCP)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;glass=0;" parent="6cl_TD3AmLUB1-cgZ15C-1" vertex="1">
