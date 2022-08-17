@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T11:28:59.714Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36" etag="Aw7Juz2s4pClY94CWw3L" version="20.2.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-08-17T11:30:37.546Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36" etag="tgasMUJZlMxc6pa0-acK" version="20.2.3" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="offpeak_gridPurchase">
     <mxGraphModel dx="1360" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
@@ -157,10 +157,10 @@
           <mxGeometry x="772.5" y="310" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hqxDWIA4O4p0LkHxTcnM-0" value="\(\eta_{discharge} = \eta_{charge} = \sqrt{\eta_{rt}}\)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;" parent="6cl_TD3AmLUB1-cgZ15C-1" vertex="1">
-          <mxGeometry x="40" y="520" width="460" height="40" as="geometry" />
+          <mxGeometry x="20" y="700" width="460" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hqxDWIA4O4p0LkHxTcnM-1" value="$$ BEL_{i+1} = BEL_i + charge \cdot \sqrt{\eta_{rt}} - \frac{discharge}{\sqrt{\eta_{rt}}} $$" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="6cl_TD3AmLUB1-cgZ15C-1" vertex="1">
-          <mxGeometry x="40" y="576" width="570" height="30" as="geometry" />
+          <mxGeometry x="20" y="756" width="570" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
